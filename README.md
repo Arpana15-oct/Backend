@@ -262,6 +262,10 @@ All dashboard endpoints support optional date range filtering:
 **Self-registration always assigns viewer role**
 Users who register via `/api/auth/register` are always assigned the `viewer` role regardless of what is sent in the request body. Role upgrades must be done by an admin via `PATCH /api/users/:id/role`. This prevents privilege escalation on registration.
 
+**Admin registration:
+
+If a valid adminSecret is provided during registration, the user will be assigned the admin role.
+
 **Admin-created users get a temporary password**
 When an admin creates a user via `POST /api/users`, a temporary password is auto-generated and returned in the response. The admin is responsible for sharing it with the user securely.
 
