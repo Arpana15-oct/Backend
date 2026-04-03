@@ -106,7 +106,16 @@ Authorization: Bearer <your_token>
 | Method | Endpoint | Access | Description |
 |---|---|---|---|
 | POST | `/api/auth/register` | Public | Register a new user (always assigned viewer role) |
+<img width="1886" height="905" alt="Screenshot 2026-04-03 211838" src="https://github.com/user-attachments/assets/0696a389-ee19-4d73-b29b-0ec621bb333f" />
+
+<img width="1918" height="974" alt="Screenshot 2026-04-03 212106" src="https://github.com/user-attachments/assets/3ad2d53f-b9f2-4712-bf4f-f2f98d2d31c2" />
+
+
 | POST | `/api/auth/login` | Public | Login and receive JWT token |
+<img width="1919" height="980" alt="Screenshot 2026-04-03 212422" src="https://github.com/user-attachments/assets/4b64ae80-5094-4c71-8137-4fd2f710a414" />
+
+<img width="1915" height="971" alt="Screenshot 2026-04-03 212538" src="https://github.com/user-attachments/assets/3660caf4-70d2-4d1d-9bc3-27f986ba167f" />
+
 
 **Register request body:**
 ```json
@@ -145,6 +154,8 @@ Authorization: Bearer <your_token>
 
 ### Users (Admin only)
 
+<img width="1367" height="779" alt="Screenshot 2026-04-03 213659" src="https://github.com/user-attachments/assets/b985f0b3-396f-4971-ae96-f7d7bbe0b20f" />
+
 | Method | Endpoint | Access | Description |
 |---|---|---|---|
 | POST | `/api/users` | Admin | Create a new user |
@@ -166,6 +177,7 @@ Authorization: Bearer <your_token>
 ---
 
 ### Records
+<img width="1917" height="979" alt="Screenshot 2026-04-03 213417" src="https://github.com/user-attachments/assets/f51f57a8-9f67-4fd7-8388-2318136efe83" />
 
 | Method | Endpoint | Access | Description |
 |---|---|---|---|
@@ -203,6 +215,8 @@ Authorization: Bearer <your_token>
 ---
 
 ### Dashboard
+
+<img width="1337" height="759" alt="Screenshot 2026-04-03 213718" src="https://github.com/user-attachments/assets/3dc2e723-6ee0-41e7-80c9-0b3d94430b6e" />
 
 | Method | Endpoint | Access | Description |
 |---   |---                          |---|---|
